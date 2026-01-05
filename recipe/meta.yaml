@@ -22,12 +22,12 @@ requirements:
 
   run:
     - python >={{ python_min }}
-    - pytest >=3.6
+    - pytest >=6.2.0
 
 test:
   requires:
     - pip
-    - pytest >=3.6
+    - pytest >=6.2.0
     - tox
     - python {{ python_min }}
   commands:
